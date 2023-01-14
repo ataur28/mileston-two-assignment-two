@@ -1,0 +1,140 @@
+/*------------------ 
+    google fonts
+-------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*----------------
+     header style start
+-------------------- */
+.header {
+    padding: 50px 100px;
+    text-align: center;
+    background-color: rgba(255, 144, 14, 0.1);
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+.header-nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+    margin-left: 30px;
+}
+
+/*------------------
+     banner section atart
+------------------- */
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-top: 80px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 30px 0;
+}
+
+.primary-button {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 20px;
+    background-color: #FF900E;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.banner-section img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+/*------------------
+     banner section end
+------------------- */
+
+/*----------------
+     header style end
+-------------------- */
+
+/*----------------------------
+     main section style start
+--------------------------------- */
+/*----------------------------
+     features section style start
+--------------------------------- */
+.features{
+    margin: 50px 100px;
+    
+}
+
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.feature-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+    
+
+
+.feature-description-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.feature-description-title-one {
+    color: #131313;
+}
+
+.feature-description-title-two {
+    color: #FF900E;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 24px 0 32px;
+}
