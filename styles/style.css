@@ -446,7 +446,7 @@ nav a {
 ---------------------------- -  */
 
 /*------------------------------
-     small device media query
+     small device media query start
 -------------------------------- */
 
 @media only screen and (max-width:576px) {
@@ -516,3 +516,84 @@ nav a {
         display: none;
     } */
 }
+
+/*------------------------------
+     small device media query end
+-------------------------------- */
+
+/*------------------------------
+     media device media query start
+-------------------------------- */
+@media only screen and (min-width:577px) and (max-width:991px) {
+    .header {
+        padding: 50px 20px;
+
+    }
+
+    .header-nav-section,
+    .nav-item,
+    .feature,
+    .feature-love-item,
+    .work {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        padding-left: 0px;
+    }
+
+    /* nav a {
+        margin: 40px 0;
+    } */
+    .features {
+        margin: 50px 20px;
+    }
+
+    .feature-image {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .feature-image img {
+        width: 100%;
+    }
+
+    .feature-love {
+        margin: 50px 20px;
+    }
+
+    .feature-love-image img {
+        right: 0px;
+    }
+
+    .feature-love-image-button {
+        top: 0px;
+        margin: 30px 0;
+    }
+
+    .feature-love-image-button-section {
+        text-align: center;
+    }
+
+    .some-facts {
+        margin: 50px 20px;
+    }
+
+    .some-fact-items,
+    .sponspor-companies {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sponspors {
+        margin: 50px 20px;
+    }
+
+    .works {
+        margin: 50px 20px;
+    }
+
+}
+
+/*------------------------------
+     media device media query end
+-------------------------------- */
