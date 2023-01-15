@@ -96,26 +96,27 @@ nav a {
 /*----------------------------
      features section style start
 --------------------------------- */
-.features{
+.features {
     margin: 50px 100px;
-    
+
 }
 
-.feature{
+.feature {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     justify-content: space-between;
 }
-.feature-image{
+
+.feature-image {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
 
-    
+
 
 
 .feature-description-title {
@@ -137,4 +138,95 @@ nav a {
     font-size: 16px;
     color: #727272;
     padding: 24px 0 32px;
+}
+
+/*----------------------------
+     features section style end
+--------------------------------- */
+
+/*----------------------------- f
+    eatures-love-enjoy-start
+------------------------------- */
+
+.feature-love{
+    margin: 50px 100px;
+}
+
+.feature-love-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.feature-love-title-part{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.feature-love-title-sidebox {
+    width: 5px;
+    height: 106px;
+    background-color: #FF900E;
+
+}
+
+.feature-love-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.feature-love-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.feature-love-description-item {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.feature-love-description-item-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.feature-love-description-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 10px 0;
+}
+.feature-love-image img{
+    width: 100%;
+    position: relative;
+    right: -70px;
+}
+.feature-love-image-button {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.feature-love-image-button-extention {
+    font-weight: 500;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.feature-love-image-button{
+    position: relative;
+    top: -150px;
 }
