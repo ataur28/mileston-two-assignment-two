@@ -145,21 +145,21 @@ nav a {
 --------------------------------- */
 
 /*----------------------------- f
-    eatures-love-enjoy-start
+    eatures-love-enjoy- style-start
 ------------------------------- */
 
-.feature-love{
+.feature-love {
     margin: 50px 100px;
 }
 
-.feature-love-item{
+.feature-love-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
 }
 
-.feature-love-title-part{
+.feature-love-title-part {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -205,11 +205,13 @@ nav a {
     color: #727272;
     padding: 10px 0;
 }
-.feature-love-image img{
+
+.feature-love-image img {
     width: 100%;
     position: relative;
     right: -70px;
 }
+
 .feature-love-image-button {
     font-weight: 700;
     font-size: 65px;
@@ -226,7 +228,123 @@ nav a {
     color: #FFFFFF;
 }
 
-.feature-love-image-button{
+.feature-love-image-button {
     position: relative;
     top: -150px;
+}
+
+/*----------------------------- f
+    eatures-love-enjoy- style-end
+------------------------------- */
+
+/* ----------------------------
+    some facts section style start
+----------------------------- */
+.some-facts {
+    margin: 50px 100px;
+}
+
+.some-fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.some-fact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 24px 0;
+}
+
+.some-fact-items {
+    display: flex;
+    /* align-items: center; */
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.some-fact-item {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px;
+}
+
+.some-fact-item:hover {
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+.some-fact-item img {
+    width: 45px;
+    height: 45px;
+}
+
+.some-fact-awards-number {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    padding: 10px 0 5px;
+}
+
+.some-fact-awards-description {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* ----------------------------
+    some facts section style end
+----------------------------- */
+
+/* -------------------------
+    our sponspores part style start
+----------------------------- */
+.sponspors {
+    margin: 50px 100px;
+    text-align: center;
+}
+
+.sponsponrs-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sponsponrs-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding: 24px 0;
+}
+
+.sponspor-companies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.sponspor-company img {
+    margin-top: 50px;
+}
+
+/* -------------------------
+    our sponspores part style end
+----------------------------- */
+
+/* footer style start */
+.footer {
+    margin: 50px 100px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    padding: 40px 0;
 }
